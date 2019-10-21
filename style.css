@@ -1,3 +1,10 @@
 body {
     padding-top: 25px;
+    background: rgb(149,149,149); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgb(149,149,149) 0%, rgb(13,13,13) 46%, rgb(1,1,1) 50%, rgb(10,10,10) 53%, rgb(78,78,78) 76%, rgb(56,56,56) 87%, rgb(27,27,27) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgb(149,149,149) 0%,rgb(13,13,13) 46%,rgb(1,1,1) 50%,rgb(10,10,10) 53%,rgb(78,78,78) 76%,rgb(56,56,56) 87%,rgb(27,27,27) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgb(149,149,149) 0%,rgb(13,13,13) 46%,rgb(1,1,1) 50%,rgb(10,10,10) 53%,rgb(78,78,78) 76%,rgb(56,56,56) 87%,rgb(27,27,27) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 );
+    background-color: darkgrey
+
 }

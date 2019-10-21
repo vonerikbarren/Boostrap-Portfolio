@@ -10,14 +10,149 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
     <link rel="stylesheet" type="text/css" href="/Boostrap-Portfolio/reset.css">
     <link rel="stylesheet" type="text/css" href="../Boostrap-Portfolio/style.css">
 
-    <title>Hello, world!</title>
+
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- Navigation Bar -->
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Welcome!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../Boostrap-Portfolio/contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Old Website</a>
+                </li>
+
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Websites Built
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="">Financial Websites</a>
+                        <a class="dropdown-item" href="">Artistic Websites</a>
+                        <a class="dropdown-item" href="">Tech Websites</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <img src="../Boostrap-Portfolio/Assets/img/image_rps.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock Paper Scissors</h5>
+                        <p class="card-text">A game where you have a 50/50 chance of winning. Are you up to the
+                            challenge?</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <img src="../Boostrap-Portfolio/Assets/img/image_calculator.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculator</h5>
+                        <p class="card-text">My very own calculator to use whenever I feel like it. I really enjoyed
+                            making this.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <img src="../Boostrap-Portfolio/Assets/img/image_captainPlanet.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Captain Planet</h5>
+                        <p class="card-text">This is my first app where I used jQuery to assist in my development. This
+                            really helped me understand how to write code.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <img src="../Boostrap-Portfolio/Assets/img/image_hangman.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hangman</h5>
+                        <p class="card-text">Coming soon. This is a game that combines hangman, wheel of fortune, and
+                            monopoly all in one.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <img src="../Boostrap-Portfolio/Assets/img/image_starwars.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Star Wars RPG</h5>
+                        <p class="card-text">Choose your side of the Force and Battle, in my own developed RPG! Use the
+                            force and your lightsaber and come out on top!.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-dark text-light">
+                    <img src="../Boostrap-Portfolio/Assets/img/image_weatherapp.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather App</h5>
+                        <p class="card-text">This is my first developed program using AJAX. I really was fascinated by
+                            the syntax and the protocols surrounding AJAX.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
